@@ -5,6 +5,8 @@ import (
 	"main/fors"
 	"main/ifs"
 	"main/start"
+	"main/stringarna"
+	"main/structs"
 	"main/strukturer"
 	"math"
 )
@@ -16,6 +18,8 @@ func almostEqual(a, b float64) bool {
 }
 
 func main() {
+	structs.Run1()
+	stringarna.Run6()
 	strukturer.Run3()
 	fors.Run6()
 	ifs.Run5()
