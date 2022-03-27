@@ -18,7 +18,7 @@ func almostEqual(a, b float64) bool {
 }
 
 func main() {
-	structs.Run1()
+	structs.Run3()
 	stringarna.Run6()
 	strukturer.Run3()
 	fors.Run6()
